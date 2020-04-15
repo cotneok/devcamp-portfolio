@@ -55,4 +55,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2.4'
 gem 'devise', '~> 4.7', '>= 4.7.1'
+<<<<<<< HEAD
 gem 'tsotne_view_tool', git: 'https://github.com/cotneok/tsotne_view_tool'
+=======
+gem 'petergate', '~> 1.7'
+>>>>>>> cf01314afbebc3e520fcc29b015995a48e8995a3
