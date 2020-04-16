@@ -19,8 +19,7 @@
 
   # GET /blogs/new
   def new
-    @page_title = @blog.title
-    @seo_keywords = @blog.body
+    @blog = Blog.new
   end
 
   # GET /blogs/1/edit
