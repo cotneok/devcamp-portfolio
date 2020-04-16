@@ -57,4 +57,6 @@ gem 'friendly_id', '~> 5.2.4'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'tsotne_view_tool', git: 'https://github.com/cotneok/tsotne_view_tool'
 gem 'petergate', '~> 1.7'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'jquery-rails'
 
