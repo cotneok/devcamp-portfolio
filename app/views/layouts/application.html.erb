@@ -20,15 +20,13 @@
 
         <div class="cover-container">
 
-       <%= copyright_generator %>
-
-       <%= source_helper("application") %>
-
           <%= render "shared/application_nav" %>
           
           <%= login_helper %>
 
            <%= yield %>
+
+           <%= copyright_generator %>
 
            <%= source_helper("application") %>
 
@@ -37,6 +35,6 @@
       </div>
 
    </div>
->>>>>>> design
+
   </body>
 </html>
