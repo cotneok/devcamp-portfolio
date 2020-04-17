@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= @page_title %></title>
 
     <%= csrf_meta_tags %>
@@ -20,16 +22,14 @@
 
         <div class="cover-container">
 
-       <%= copyright_generator %>
-
-       <%= source_helper("application") %>
-
           <%= render "shared/application_nav" %>
           
-          <%= login_helper %>
+          
 
            <%= yield %>
 
+           <%= render "shared/application_footer" %>
+           
            <%= source_helper("application") %>
 
         </div>
@@ -37,6 +37,6 @@
       </div>
 
    </div>
->>>>>>> design
+
   </body>
 </html>
