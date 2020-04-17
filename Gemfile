@@ -59,4 +59,5 @@ gem 'tsotne_view_tool', git: 'https://github.com/cotneok/tsotne_view_tool'
 gem 'petergate', '~> 1.7'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
-
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+gem 'kaminari', '~> 1.2'
