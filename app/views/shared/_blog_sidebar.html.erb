@@ -4,6 +4,13 @@
     <p>Welcome to the Blog page of <em>Tsotke Okrostsvaridze's</em> portfolio website. Enjoy the reading through various interesting materials and dont forget to hit me up on the social media links indicated below, if you have any questions.</p>
   </div>
   
+  <div class="sidebar-module" style="text-align:center;">
+    <h4>Topics</h4>
+    <% @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
+  </div>
+
   <div class="sidebar-module">
     <h4 style="text-align:center;">Elsewhere</h4>
     <ol class="list-unstyled social-links">
