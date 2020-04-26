@@ -3,10 +3,19 @@
     <h4 style="text-align:center;">About</h4>
     <p>Welcome to the Blog page of <em>Tsotke Okrostsvaridze's</em> portfolio website. Enjoy the reading through various interesting materials and dont forget to hit me up on the social media links indicated below, if you have any questions.</p>
   </div>
+
+  <%= source_helper("alert alert-info blog-sidebar-source") %>
   
+  <div class="sidebar-module" style="text-align:center;">
+    <h4>Topics</h4>
+    <% @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
+  </div>
+
   <div class="sidebar-module">
     <h4 style="text-align:center;">Elsewhere</h4>
-    <ol class="list-unstyled social-links">
+    <ol class="list-unstyled social-links" style="text-align:center;">
       <li><a href="https://github.com/cotneok"><%= fa_icon "github" %></a></li>
       <li><a href="https://www.linkedin.com/in/tsotne-okrostsvaridze-ab1b5958/?locale=en_US"><%= fa_icon "linkedin" %></a></li>
       <li><a href="https://www.instagram.com/cotne_ok/"><%= fa_icon "instagram" %></a></li>
